@@ -1,26 +1,55 @@
+<!-- Unit 6 Project
+Requirements
+[  ] three different shapes
+[  ] three different RGB colors
+[  ] three comments 
+[  ] three new HTML elements 
+
+Select ONE Additional 
+[ no ] Feature 1 - three different strokeWeight() commands
+[ no ] Feature 2 - Add a second <canvas>
+[ no ] Feature 3 - Change Tab Title & Image
+[ no ] Feature 4 - Typewriter Animation
+[ no ] Feature 5 - Gradient Background
+-->
+
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Unit 6 Project</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
+    <style>
+      #title{
+        font-family: cursive;
+      }
+      
+    </style>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Title</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
-  <style>
+  <body>
+     <h1 id="title">
+          Buterfly🦋
+      </h1>
+    <div class="container">
+      <div>
+        <h2 id="start">How it started.</h2>
+        <img
+          class="pic" src="https://i.etsystatic.com/10329932/r/il/82bcf9/5206381583/il_fullxfull.5206381583_759s.jpg"></script>
+       
+      </div>
+      <div>
+        <h2 id="end">How it ended.</h2>
+        <canvas id="myCanvas" data-processing-sources="myP5Code.pde"> </canvas>
+      </div>
+    </div>
   
-  </style>
-</head>
-
-<body>
-  <h1>Unit 6 JS Drawing Basics &amp Coloring </h1>
-  <h2>6.1 JS Making Drawings with Code</h2>
-
-  <canvas id="myCanvas" data-processing-sources="myP5Code.pde">
-  </canvas>
-
-</body>
-
+   
+  
+  
+  </body>
 </html>
 
 <!--- Taken From Khan Academy Intro to JS: Drawing & Animation --->
